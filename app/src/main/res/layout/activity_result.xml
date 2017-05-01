@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s6"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inkiltie.trainapp.Result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.inkiltie.trainapp.MyTextView
+                android:text="TrainApp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:id="@+id/logo"
+                android:textSize="48.5sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="SkyTrain Assistant"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:layout_marginLeft="-24dp"
+                android:id="@+id/motto"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="122dp"
+                android:background="@drawable/bg_list_rect"
+                android:orientation="vertical"
+                android:elevation="11dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/actual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From"
+                        android:textColor="@color/textsub"
+                        android:textSize="@dimen/text"
+                        android:textAllCaps="true"
+                        android:textStyle="normal|bold"
+                        android:layout_marginTop="1dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/first"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/bg_list_rect"
+                android:orientation="vertical"
+                android:elevation="10dp">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#f9f9f9"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/destination"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To"
+                        android:textColor="@color/textsub"
+                        android:textSize="@dimen/text"
+                        android:textAllCaps="true"
+                        android:textStyle="normal|bold"
+                        android:layout_marginTop="1dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="344dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="225dp"
+                android:background="@drawable/s4"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#f9f9f9"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:id="@+id/route"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Route"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/text"
+                        android:textAllCaps="true"
+                        android:textStyle="normal|bold"
+                        android:layout_marginTop="1dp"/>
+
+                </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="back"
+                android:id="@+id/backbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/result"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pink"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back to directions"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/text"
+                        android:textAllCaps="true"
+                        android:textStyle="normal|bold"
+                        android:layout_marginTop="1dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

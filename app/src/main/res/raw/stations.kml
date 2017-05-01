@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vancouver Skytrain Stations</name>
+    <description/>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-0BA9CC-normal">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-0BA9CC-highlight">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-0BA9CC">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-0BA9CC-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-0BA9CC-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-3F5BA9-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-3F5BA9-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-3F5BA9">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-3F5BA9-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-3F5BA9-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-17-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>17</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-17-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>26</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-17-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-17-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-17-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0BA9CC-17-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>17</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0BA9CC-17-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>26</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-17">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-17-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-17-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-17-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>17</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-17-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>26</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-17-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-17-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-17-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-17-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>17</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-17-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>26</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-17-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-17-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-17-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-62AF44-0-89-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5944af62</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-62AF44-0-89-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5944af62</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-62AF44-0-89">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-62AF44-0-89-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-62AF44-0-89-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-DB4436-0-77-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d3644db</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-DB4436-0-77-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d3644db</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-DB4436-0-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-DB4436-0-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-DB4436-0-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F4B400-0-89-normal">
+      <LineStyle>
+        <color>ff00b4f4</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5900b4f4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F4B400-0-89-highlight">
+      <LineStyle>
+        <color>ff00b4f4</color>
+        <width>0</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5900b4f4</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F4B400-0-89">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F4B400-0-89-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F4B400-0-89-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Zone 1</name>
+        <description>Fare Zone 1</description>
+        <styleUrl>#poly-F4B400-0-89</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -123.10043,49.3005,0
+                -123.12377,49.30721,0
+                -123.143,49.31751,0
+                -123.159828,49.312142,0
+                -123.165321,49.29983,0
+                -123.148499,49.283036,0
+                -123.175278,49.275197,0
+                -123.21785,49.285723,0
+                -123.248749,49.293561,0
+                -123.252525,49.287067,0
+                -123.274841,49.286619,0
+                -123.275528,49.258843,0
+                -123.24565,49.24001,0
+                -123.22643,49.2288,0
+                -123.20755,49.22342,0
+                -123.15914,49.21131,0
+                -123.13476,49.19875,0
+                -123.11485,49.20503,0
+                -123.09597,49.20548,0
+                -123.07674,49.20817,0
+                -123.02387,49.19987,0
+                -123.02455,49.29647,0
+                -123.10043,49.3005,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Zone 3</name>
+        <description>Fare Zone 3</description>
+        <styleUrl>#poly-62AF44-0-89</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.8855133,49.3624767,0
+                -122.9315186,49.328255,0
+                -122.9455946,49.294009,0
+                -122.8949546,49.2925533,0
+                -122.8977013,49.2464614,0
+                -122.8717766,49.24965,0
+                -122.8745272,49.2323953,0
+                -122.8793266,49.22073,0
+                -122.9054256,49.202345,0
+                -122.9253366,49.17631,0
+                -122.9527966,49.17182,0
+                -122.9514266,49.15925,0
+                -122.9840469,49.1570113,0
+                -123.0362233,49.14847,0
+                -123.1268633,49.08645,0
+                -123.2233433,49.12961,0
+                -123.2741533,49.11927,0
+                -123.2755276,49.08466,0
+                -123.1766506,49.002069,0
+                -122.2519966,49.002632,0
+                -122.2500226,49.125792,0
+                -122.2592926,49.414547,0
+                -122.8710866,49.4199,0
+                -122.8855133,49.3624767,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Zone 2</name>
+        <description>Fare Zone 2</description>
+        <styleUrl>#poly-DB4436-0-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.8710866,49.4199,0
+                -123.3702766,49.42482,0
+                -123.4410066,49.38147,0
+                -123.4464966,49.32959,0
+                -123.2841066,49.33094,0
+                -123.1436866,49.31751,0
+                -123.12377,49.30721,0
+                -123.10043,49.3005,0
+                -123.0252366,49.29647,0
+                -123.0245566,49.19987,0
+                -123.0774266,49.20817,0
+                -123.1155366,49.20503,0
+                -123.13476,49.19875,0
+                -123.1598266,49.21131,0
+                -123.2233429,49.2281358,0
+                -123.275528,49.258843,0
+                -123.2731246,49.199654,0
+                -123.2734666,49.11927,0
+                -123.2226566,49.12961,0
+                -123.1261766,49.08645,0
+                -123.0355366,49.14847,0
+                -122.9840469,49.1570113,0
+                -122.9514266,49.15925,0
+                -122.9527966,49.17182,0
+                -122.9253366,49.17631,0
+                -122.9061066,49.20189,0
+                -122.8793266,49.22073,0
+                -122.8741836,49.2341891,0
+                -122.8717766,49.24965,0
+                -122.8974066,49.24835,0
+                -122.8949546,49.2925533,0
+                -122.9455946,49.294009,0
+                -122.9315186,49.328255,0
+                -122.8855133,49.3624767,0
+                -122.8710866,49.4199,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Main Street Station</name>
+        <description>At Main Street and Terminal Avenue in Vancouver. Science World and the Pacific Central Station (intercity bus and rail station) are found on either side of Main Station, at the foot of False Creek.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.100487,49.27316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stadium Station</name>
+        <description>On Beatty at Dunsmuir Street in downtown Vancouver.  Coast Mountain Bus Company Lost Property is located on the concourse level (open 8:30am - 5:00pm, Monday to Friday). Use the lower street level exit (Pacific Blvd.) to go to GM Place and the upper street level exit (Beatty St.) to go to BC Place Stadium (about 2 blocks walk southbound along Beatty).</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.109961,49.279733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granville Station</name>
+        <description>On Granville between Georgia and Dunsmuir Streets in downtown Vancouver.  Enter beside The Bay store on Granville Mall; from the two lower floors of The Bay store; from Seymour Street; or from the wheelchair-equipped Dunsmuir Street access.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.116677,49.282399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burrard Station</name>
+        <description>On Burrard at Dunsmuir Street beside the Bentall towers and Hyatt Regency Hotel in downtown Vancouver, a suburban routes terminus.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.11996,49.285527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterfront Station</name>
+        <description>On Cordova Street between Granville and Seymour in downtown Vancouver, this station links to the SeaBus and West Coast Express. Enter from Cordova Street through the old railway station, or from Howe St, Sinclair Centre or Waterfront Centre (linked to Canada Place).</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.112106,49.285863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broadway Station</name>
+        <description>At East Broadway and Commercial Drive in Vancouver.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.069052,49.261867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commercial Drive Station</name>
+        <description><![CDATA[Located on the south side of the Grandview Cut between Commercial Drive and the Broadway bridges, Commercial Drive Station is the Millennium Line's major transfer point to the Expo SkyTrain line's Broadway Station and the 99B-Line rapid bus service.]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.068719,49.263016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VCC/Clark Station</name>
+        <description>On East 6th Avenue at Keith Drive in Vancouver.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.078911,49.265781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Renfrew Station</name>
+        <description>Renfrew Station is an elevated, side-platform station located on the north side of the railway tracks between Renfrew and Kaslo streets, about one block north of Grandview Highway.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.045759,49.258843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rupert Station</name>
+        <description>Rupert Station is located in Vancouver on the east side of Rupert Street north of the BNSF rail line oriented toward Rupert Street to integrate with north and south bus routes, passenger pickup and drop-off and pedestrian traffic.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.03282,49.260775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nanaimo Station</name>
+        <description>At Nanaimo Street and 24th Avenue, Vancouver.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.055748,49.248205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>29th Avenue Station</name>
+        <description>On East 29th Avenue west of Earles Street.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.045738,49.244136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joyce Station</name>
+        <description>At Joyce and Vanness Street in Vancouver.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.031865,49.238378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilmore Station</name>
+        <description>Gilmore Station is located at Gilmore Avenue and Dawson Street in Burnaby.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.013637,49.264878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brentwood Town Centre Station</name>
+        <description>Brentwood Town Centre Station is located at Lougheed Highway near Willingdon Avenue. It offers overpass connections to Brentwood Town Centre and a major bus interchange. The station has a pedestrian bridge/mezzanine (below the platform level) connecting the north and south sides of Lougheed Highway.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -123.002672,49.26646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holdom Station</name>
+        <description><![CDATA[Holdom Station is located in Burnaby on the southwest corner of Holdom Avenue and Lougheed Highway. The station's entrance provides unimpeded access for pedestrians crossing Lougheed Highway and for those disembarking from buses.]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.982255,49.264696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sperling/Burnaby Lake Station</name>
+        <description>Sperling Station is located in Burnaby on the southeast corner of Sperling Avenue and Lougheed Highway.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.963737,49.259116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake City Way Station</name>
+        <description>Lake City Way Station is located in Burnaby at the corner of Lake City Way and Lougheed Highway.  Bus service to/from the station is located one block north.</description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -122.938793,49.254529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Production Way - University Station</name>
+        <description>Production Way Station is the primary transfer point for bus connections to Simon Fraser University. Located in Burnaby at the northeast corner of Production Way and Lougheed Highway, passengers enter the station on the north side, shielded from the busy traffic along Lougheed Highway.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.918215,49.253395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Braid</name>
+        <description>Located near Braid Street and Brunette Avenue. The station is the major interchange with SkyTrain for many Coquitlam and New Westminster bus routes.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.882938,49.234469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lougheed Town Centre Station</name>
+        <description>Lougheed Town Centre Station is located in Burnaby on the north side of the Austin Road/Lougheed Highway intersection. The station has entrances on both the east and west side of Austin Road, providing convenient access for residents and bus patrons, and a clearly marked walk of less than two minutes to the Lougheed Town Centre.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.895813,49.247862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sapperton</name>
+        <description>At the foot of Keary Street in New Westminster. A mezzanine level joins a pedestrian walkway crossing over Brunette to a plaza on Keary street (construction in the area currently requires using a staircase as well).  The walkway provides convenient public access to Royal Columbian Hospital and the Sapperton neighbourhood business district.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.889526,49.224605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scott Road Station</name>
+        <description><![CDATA[At Scott Road and King George Highway in Surrey. A security patrolled Park 'n' Ride is located here. A popular transfer point for the 640 Ladner Exchange.]]></description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.87413,49.204385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gateway Station</name>
+        <description><![CDATA[On 108th Avenue at 134th Street in Surrey. Home of Coast Mountain Bus Company's head office.]]></description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.850612,49.198945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surrey Central Station</name>
+        <description>At 135th Street and 102nd Avenue beside the North Surrey Recreation Centre and across from Central City.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.847801,49.18948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King George Station</name>
+        <description>On King George Hwy at 100th Ave in Surrey, it is the furthest SkyTrain station to the east.  A median and fence divide King George Hwy in front of the station requiring you to cross the highway at the 100th Avenue intersection to transfer to buses southbound on King George Hwy.  For most bus routes, you will find it more convenient to transfer at Surrey Central Station.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.84469,49.182769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbia Station</name>
+        <description>On Columbia at 4th Street in New Westminster.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.90607,49.204939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Westminster</name>
+        <description>At Columbia and 8th Street in New Westminster.  Opposite Westminster Quay Public Market.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.912153,49.201665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22nd Street Station</name>
+        <description>On 7th Avenue at 22nd Street in New Westminster. Close to Marine Way and Queensborough.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.948813,49.200116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edmonds Station</name>
+        <description>At Edmonds and 19th Street in Burnaby.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.959247,49.212194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Oak Station</name>
+        <description>At Royal Oak Avenue and Beresford Street in Burnaby.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -122.988564,49.220099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metrotown Station</name>
+        <description>On Central Blvd, east of McKay at the Metrotown Shopping Centre in Burnaby. Use the overhead walkway to Metropolis and Station Square.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.00338,49.225543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patterson Station</name>
+        <description>On Patterson Avenue at Beresford Street in Burnaby.  Located beside Central Park, close to Kingsway.</description>
+        <styleUrl>#icon-503-3F5BA9</styleUrl>
+        <Point>
+          <coordinates>
+            -123.01265,49.229719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vancouver City Centre</name>
+        <description><![CDATA[Vancouver City Centre Station (Granville & Robson)]]></description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.118737,49.282203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yaletown-Roundhouse</name>
+        <description>Yaletown-Roundhouse (Davie Street near Mainland Street)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.121998,49.274672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympic Village</name>
+        <description>Olympic Village (Cambie Street at West 2nd Avenue; planned for after 2010, but included in the initial project after the City of Vancouver provided funding)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.11555,49.266733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broadway-City Hall</name>
+        <description>Broadway-City Hall (Cambie Street at West Broadway)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.114628,49.262995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Edward</name>
+        <description>King Edward (Cambie Street at King Edward Avenue)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.115379,49.24892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakridge-41st Avenue </name>
+        <description>Oakridge-41st Avenue (Cambie Street at West 41st Avenue, next to Oakridge Centre)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.116537,49.233173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Langara-49th Avenue</name>
+        <description>Langara-49th Avenue (Cambie Street at West 49th Avenue)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.116784,49.22595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marine Drive</name>
+        <description>Marine Drive (Cambie Street at Southwest Marine Drive)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.116891,49.210266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridgeport</name>
+        <description>Bridgeport (north of Bridgeport Road in Richmond; major transit exchange for suburban buses; link to Airport branch)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.125668,49.195391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aberdeen</name>
+        <description>Aberdeen (No. 3 Road at Cambie Road)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.136654,49.184803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lansdowne </name>
+        <description>Lansdowne (No. 3 Road at Lansdowne Road; 3-4 blocks away from the Richmond Olympic Oval speed skating venue)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.136171,49.173582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Richmond-Brighouse</name>
+        <description>Richmond-Brighouse (No. 3 Road at Cook Road, adjacent to the Richmond Centre shopping mall)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.136257,49.166679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Templeton </name>
+        <description>Templeton (likely to be located north of Grant McConachie Way, near Templeton Street)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.149271,49.196008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Island Centre</name>
+        <description>Sea Island Centre (likely to be located on Grant McConachie Way, near the Air Canada service centre)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.159142,49.192867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YVR-Airport</name>
+        <description>YVR-Airport (adjacent to the main terminal of Vancouver International Airport)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.179741,49.193764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YVR 3</name>
+        <description>YVR 3</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.167317,49.193077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>57th Avenue</name>
+        <description>57th Avenue (Cambie Street at West 57th Avenue)</description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.11643,49.219027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>33rd Avenue</name>
+        <description><![CDATA[33rd Avenue (Cambie Street at West 33rd Avenue, next to Queen Elizabeth Park)<br><br>This station does not yet exist, but is planned to be added in the future.]]></description>
+        <styleUrl>#icon-503-0BA9CC</styleUrl>
+        <Point>
+          <coordinates>
+            -123.118104,49.241166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canada Line</name>
+        <description>Canada Line</description>
+        <styleUrl>#line-0BA9CC-17</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -123.13107,49.19453,0
+            -123.13437,49.19564,0
+            -123.14506,49.19698,0
+            -123.14901,49.19589,0
+            -123.1527,49.19396,0
+            -123.15788,49.19297,0
+            -123.16727,49.19307,0
+            -123.17956,49.19382,0
+            -123.16725,49.19306,0
+            -123.15789,49.19299,0
+            -123.15279,49.19393,0
+            -123.14901,49.19595,0
+            -123.14495,49.19694,0
+            -123.14,49.19635,0
+            -123.1347,49.19567,0
+            -123.13131,49.19466,0
+            -123.128886,49.195307,0
+            -123.12607,49.19561,0
+            -123.13332,49.19139,0
+            -123.13682,49.18535,0
+            -123.13639,49.1675,0
+            -123.13682,49.18523,0
+            -123.13347,49.19138,0
+            -123.12691,49.19508,0
+            -123.12564,49.19565,0
+            -123.11708,49.21064,0
+            -123.11652,49.22609,0
+            -123.11635,49.23343,0
+            -123.11596,49.23847,0
+            -123.11785,49.24004,0
+            -123.11841,49.24091,0
+            -123.11845,49.24223,0
+            -123.11738,49.24352,0
+            -123.11554,49.24492,0
+            -123.11489,49.26321,0
+            -123.11554,49.26685,0
+            -123.11601,49.27052,0
+            -123.12457,49.27616,0
+            -123.12547,49.27689,0
+            -123.12553,49.27711,0
+            -123.12545,49.27752,0
+            -123.12526,49.27782,0
+            -123.1245,49.27837,0
+            -123.11871,49.28216,0
+            -123.11232,49.28596,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Evergreen Extension</name>
+        <styleUrl>#line-009D57-17-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.91827,49.25339,0
+            -122.90924,49.25212,0
+            -122.90686,49.25163,0
+            -122.90446,49.2513,0
+            -122.90227,49.25077,0
+            -122.89672,49.24835,0
+            -122.895813,49.247862,0
+            -122.89459,49.24719,0
+            -122.8935814,49.2473579,0
+            -122.8929806,49.2480303,0
+            -122.8930664,49.2585626,0
+            -122.8926373,49.2592348,0
+            -122.8890324,49.2620355,0
+            -122.8884315,49.2632678,0
+            -122.8761578,49.2725649,0
+            -122.8722095,49.2779967,0
+            -122.8698063,49.2791166,0
+            -122.8680038,49.2793966,0
+            -122.8668022,49.2793966,0
+            -122.8613949,49.2786686,0
+            -122.8571892,49.2779967,0
+            -122.8550434,49.2779407,0
+            -122.8505802,49.2779407,0
+            -122.8351307,49.2778287,0
+            -122.8308392,49.2772688,0
+            -122.8268051,49.2768208,0
+            -122.8084373,49.2764848,0
+            -122.80509,49.2760928,0
+            -122.8010559,49.2748049,0
+            -122.7995968,49.2745809,0
+            -122.7986526,49.2749729,0
+            -122.7930737,49.2813563,0
+            -122.7928162,49.2833159,0
+            -122.7910137,49.2865072,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Burquitlam Station</name>
+        <description>On Clarke Road between Smith and Como Lake avenues. Within walking distance to Burquitlam Plaza, Stoney Creek walking trail, Burnaby Mountain hiking and cycling trails. Burquitlam Station is also a hub for buses travelling to/from Simon Fraser University.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8898048,49.2614474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moody Centre Station</name>
+        <description>Located between Moody and Williams streets. Convenient access to Rocky point Park, Burrard Inlet, Shoreline walking trail, local shops and the brewery district. Moody Centre is also a tranfer point between SkyTrain and the West Coast Express.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8459024,49.2778567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inlet Centre Station</name>
+        <description>Located at Ioco Road and Barnet Highway. Within walking distance to Suter Brook Village, Newport Village, Klahanie, and the Port Moody Public Library and Recreation Complex. Inlet Centre Station blends into the surrounding area with single-storey, street-level entrances and lower-level platforms located under the roadway.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8283501,49.2774367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coquitlam Central Station</name>
+        <description>Located east of Johnson Street at Mariner Way overpass. Access to Westwood Mall, Dufferin Care Centre, Dacre, Scott Creek and Hoy Creek Linear parks.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8010559,49.2748049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lincoln Central Station</name>
+        <description>Located on Pinetree Way between Lincoln and Northern Avenues. Walking distance to Coquitlam Centre Mall, Henderson Place Mall, Pinetree Village, Sunwood Square, Spirit Square, Glen Pine Pavilion, Coquitlam Public Library and Glen Park.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7938461,49.2806844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lafarge Lake-Douglas Station</name>
+        <description>Located at Pinetree Way and Guildford Way in Coquitlam. Provides access to Douglas College, Pinetree Secondary School, Evergreen Cultural Centre, Percy Perry Stadium, Town Centre Park, Lafarge Lake, BMX bike park, City Centre Aquatic Complex, Coquitlam City Hall, Tri-Cities Chamber of Commerce, RCMP and Coquitlam Fire Department.</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7917862,49.2856114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-F4EB37-17-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -123.078911,49.265781,0
+            -123.071305,49.263744,0
+            -123.0633545,49.2609713,0
+            -123.05782,49.25864,0
+            -123.05431,49.25783,0
+            -123.0489349,49.2582825,0
+            -123.0420685,49.2592908,0
+            -123.03595,49.26006,0
+            -123.02801,49.26216,0
+            -123.0228424,49.2622036,0
+            -123.01687,49.2623,0
+            -123.01457,49.26425,0
+            -123.01186,49.26592,0
+            -123.00708,49.26648,0
+            -123.0015564,49.2662363,0
+            -122.99753,49.26623,0
+            -122.99217,49.26494,0
+            -122.98495,49.26487,0
+            -122.97949,49.26446,0
+            -122.97453,49.26272,0
+            -122.96893,49.26068,0
+            -122.96595,49.25943,0
+            -122.9552078,49.2582825,0
+            -122.95215,49.2581,0
+            -122.94179,49.25486,0
+            -122.9368401,49.2545852,0
+            -122.9334068,49.2545852,0
+            -122.9284286,49.2544732,0
+            -122.9232788,49.254025,0
+            -122.91827,49.25339,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Expo Line</name>
+        <styleUrl>#line-3F5BA9-17-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -123.11207,49.2861,0
+            -123.11341,49.2865,0
+            -123.11596,49.28711,0
+            -123.11699,49.28715,0
+            -123.11834,49.28694,0
+            -123.11961,49.28633,0
+            -123.11996,49.28547,0
+            -123.11943,49.28433,0
+            -123.11674,49.28238,0
+            -123.1097,49.27957,0
+            -123.1073,49.2781,0
+            -123.10627,49.27785,0
+            -123.10426,49.27761,0
+            -123.10363,49.27743,0
+            -123.10311,49.27712,0
+            -123.10266,49.27657,0
+            -123.10223,49.27395,0
+            -123.10211,49.27369,0
+            -123.10196,49.27353,0
+            -123.10175,49.27344,0
+            -123.09853,49.27281,0
+            -123.09739,49.2724,0
+            -123.09609,49.27213,0
+            -123.09129,49.27136,0
+            -123.08218,49.26956,0
+            -123.08137,49.2692,0
+            -123.08072,49.26883,0
+            -123.07996,49.26799,0
+            -123.07921,49.26702,0
+            -123.07828,49.26638,0
+            -123.07012,49.26374,0
+            -123.0694,49.2634,0
+            -123.0692,49.26303,0
+            -123.06914,49.26263,0
+            -123.06917,49.25635,0
+            -123.06888,49.25548,0
+            -123.06852,49.25494,0
+            -123.06795,49.25436,0
+            -123.06526,49.25228,0
+            -123.06335,49.25136,0
+            -123.04578,49.24415,0
+            -123.0363,49.24019,0
+            -123.0297,49.23751,0
+            -123.02771,49.23651,0
+            -123.02289,49.23429,0
+            -123.01795,49.23221,0
+            -123.00964,49.22829,0
+            -123.00338,49.22555,0
+            -122.9974,49.22265,0
+            -122.99575,49.22189,0
+            -122.99411,49.22126,0
+            -122.99065,49.22059,0
+            -122.98857,49.22009,0
+            -122.98383,49.21906,0
+            -122.97859,49.21797,0
+            -122.97254,49.21518,0
+            -122.97097,49.21483,0
+            -122.96945,49.2148,0
+            -122.96619,49.2149,0
+            -122.96263,49.2149,0
+            -122.96192,49.21474,0
+            -122.96143,49.21451,0
+            -122.96076,49.2141,0
+            -122.96022,49.2135,0
+            -122.95778,49.20997,0
+            -122.95695,49.20906,0
+            -122.95657,49.20816,0
+            -122.95662,49.20749,0
+            -122.95698,49.20679,0
+            -122.95834,49.20526,0
+            -122.95868,49.20454,0
+            -122.95881,49.20364,0
+            -122.95859,49.20212,0
+            -122.95722,49.20074,0
+            -122.95615,49.20015,0
+            -122.95482,49.19973,0
+            -122.9537,49.19952,0
+            -122.95259,49.19947,0
+            -122.95065,49.19965,0
+            -122.9452,49.20099,0
+            -122.94164,49.20144,0
+            -122.93915,49.20226,0
+            -122.93576,49.20346,0
+            -122.93364,49.20386,0
+            -122.92847,49.20325,0
+            -122.92745,49.20287,0
+            -122.92678,49.20247,0
+            -122.92566,49.20155,0
+            -122.92499,49.20116,0
+            -122.92327,49.20074,0
+            -122.92157,49.20043,0
+            -122.92027,49.20026,0
+            -122.91724,49.20008,0
+            -122.91604,49.20007,0
+            -122.91528,49.20014,0
+            -122.91463,49.20037,0
+            -122.91339,49.20098,0
+            -122.90949,49.20311,0
+            -122.90605,49.20493,0
+            -122.90316,49.20627,0
+            -122.90246,49.20648,0
+            -122.90186,49.20657,0
+            -122.90127,49.20653,0
+            -122.89583,49.20518,0
+            -122.88975,49.20379,0
+            -122.88765,49.20337,0
+            -122.88551,49.20322,0
+            -122.88367,49.2033,0
+            -122.87414,49.20441,0
+            -122.87031,49.20489,0
+            -122.86821,49.20538,0
+            -122.86329,49.20669,0
+            -122.86208,49.20697,0
+            -122.86081,49.20712,0
+            -122.8596,49.20707,0
+            -122.85865,49.20693,0
+            -122.85772,49.20669,0
+            -122.85674,49.20621,0
+            -122.85158,49.20279,0
+            -122.85097,49.20217,0
+            -122.85069,49.20156,0
+            -122.85064,49.19894,0
+            -122.85067,49.19587,0
+            -122.85061,49.19462,0
+            -122.85043,49.19422,0
+            -122.84832,49.19226,0
+            -122.84796,49.1917,0
+            -122.84785,49.18856,0
+            -122.84764,49.18804,0
+            -122.84728,49.18753,0
+            -122.84704,49.18689,0
+            -122.84708,49.1845,0
+            -122.84686,49.18389,0
+            -122.84638,49.18347,0
+            -122.84471,49.18279,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-3F5BA9-17-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.90605,49.20493,0
+            -122.9043961,49.205598,0
+            -122.90316,49.20627,0
+            -122.90024,49.20793,0
+            -122.89838,49.20974,0
+            -122.89676,49.2115,0
+            -122.89494,49.21295,0
+            -122.89404,49.21468,0
+            -122.8944397,49.2162516,0
+            -122.89159,49.22272,0
+            -122.88258,49.23072,0
+            -122.88394,49.23637,0
+            -122.89271,49.24218,0
+            -122.89377,49.2467,0
+            -122.90227,49.25077,0
+            -122.91827,49.25339,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
